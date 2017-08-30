@@ -1,0 +1,98 @@
+/*
+Toolbox + Carbon Compatibility Fixes
+*/
+table#srList,
+.reason-popup-header,
+.reason-popup-footer,
+.tb-window-wrapper, 
+.tb-popup.personal-notes-popup,
+.tb-popup.history-button-popup,
+td.url-td, 
+.utagger-content,
+.tb-popup-content {
+    background-color: #1a1a1a !important;
+    color: #ddd !important;
+}
+
+td {
+    background-color: #1a1a1a;
+}
+
+textarea.edit-settings {
+    background-color: #1a1a1a !important;
+    color: #ddd !important;
+}
+
+.achievements-list :not(.achievement.unlocked) {
+    background: #1a1a1a !important;
+    background-color: #1a1a1a !important;
+    color: #ddd !important;
+}
+
+.achievements .achievement p {
+    background-color: #888;
+    background: #888;
+    color: #000;
+    border-color: green !important;
+}
+
+.achievements .achievement {
+    background-color: #888;
+    background: #888;
+    color: #000;
+    border-color: white !important;
+    padding: 1px 1px 1px !important;
+}
+
+.achievements .achievement.unlocked p {
+    background: #1a1a1a;
+    background-color: #1a1a1a;
+    color: #ddd !important;
+}
+
+.reason-popup-innercontent,
+.tb-page-overlay.tb-config, 
+.mod-toolbox .reason-popup {
+        background-color: rgba(16, 16, 16, 0.57) !important;
+}
+
+.reason-popup .reason-popup-content,
+.reason-popup #header-reason, 
+.reason-popup #footer-reason,
+.mod-toolbox #removal-reasons-table,
+.reason-popup #button,
+.tb-window-header, 
+.tb-window-header.buttons, 
+.tb-window-footer,
+.tb-popup-header,
+.tb-popup-header.buttons,
+.tb-popup-footer,
+p.tb-history-disclaimer
+{
+background-color: #50687b !important;
+
+}
+
+
+td#tb-personal-notes-listing,
+.mod-toolbox .tb-settings .tb-window-tabs a {
+    background-color: slategray !important;
+    color: #acd7fd !important;
+}
+
+
+.mod-toolbox .tb-window-tabs a.tb-module-disabled {
+    background-color: gray !important;
+    color: lightgray !important;
+}
+
+.reason-popup .selectable-reason.reason-selected .styled-reason {
+    background: rgba(109, 148, 103, 220) !important;
+}
+
+
+#tb-feedback-window .tb-feedback-text 
+{
+    background-color: #555 !important;
+}
+
