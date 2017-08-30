@@ -4,6 +4,14 @@
     background: #555;
 }
 
+/* custom RES style tweaks */
+
+.commentarea .res-expando-box div.usertext-body .md {
+    background: #1a1a1a !important;
+}
+
+
+
 /* 
   Some of RES/reddit tweaks are based off the ones that were posted here:
     https://www.reddit.com/r/carbon/comments/5mg3kz/re_res_uggitaliano_hasnt_posted_in_rcarbon_in_5/
