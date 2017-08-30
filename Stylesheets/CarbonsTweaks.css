@@ -1,0 +1,6 @@
+/*
+Override the forced capitalization of submission title text input
+*/
+.submit-page .formtabs-content .roundfield .title {
+    text-transform: none !important;
+}
