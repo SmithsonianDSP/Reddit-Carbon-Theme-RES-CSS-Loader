@@ -1,0 +1,30 @@
+/*
+  Since the Carbon theme is no longer being maintained, these style tweaks cover new features
+  and elements that have been added to reddit since Carbon was created.
+*/
+
+
+/* 
+    Crosspost UI 
+*/
+
+.modal-body, .crosspost-preview, .modal-content {
+    background: #1a1a1a !important;
+    color: #FFFFFF !important;
+}
+
+label.crosspost-label, .crosspost-label, crossposting-modal .crosspost-label {
+    color: #FFFFFF !important;
+}
+
+.crosspost-description {
+    color: black !important;
+}
+.crosspost-preview.selftext {
+    background: #1a1a1a !important;
+}
+
+.thing.visited .title, .thing.visited .source-url {
+    color: #808c94 !important;
+}
+
