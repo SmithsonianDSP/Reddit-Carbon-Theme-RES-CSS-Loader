@@ -1,0 +1,36 @@
+
+/* The "View Source" textbox */
+.viewSource textarea[readonly] {
+    background: #555;
+}
+
+/* 
+  Some of RES/reddit tweaks are based off the ones that were posted here:
+    https://www.reddit.com/r/carbon/comments/5mg3kz/re_res_uggitaliano_hasnt_posted_in_rcarbon_in_5/
+*/
+
+.archived-infobar.with-icon::before,
+.archived-infobar,
+.reddit-infobar.with-icon::before,
+.reddit-infobar,
+#header-bottom-right::before,
+#header-bottom-right,
+.titlebox form.toggle,
+.leavemoderator .reddit-infobar,
+#newlink-with-image-upload .image-upload-drop-target {
+  background-color: transparent !important;
+}
+
+.reddit-infobar .md {
+  color: #ddd !important;
+}
+
+.reddit-infobar {
+  border-style: none !important;
+}
+
+
+/* Override Synccit's "Visited Link" color */
+.link a.title:visited, .link.visited a.title {
+    color: #808c94 !important;
+}
